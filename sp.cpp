@@ -9,7 +9,8 @@
 
 //C Code
 
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 int main()
 {
       int i,j; 
@@ -18,9 +19,9 @@ int main()
       {
           for(j=1;j<=5;j++)
           {
-              printf("* ");
+              cout<<"* ";
           }
-          printf("\n");
+          cout<<endl;
       }
       return 0;
 }
