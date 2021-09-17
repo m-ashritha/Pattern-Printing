@@ -24,3 +24,34 @@ int main()
       }
       return 0;
 }
+
+-------------------------------------------------------------------------------
+#print the following pattern
+     
+     1 1 1 1 1
+     2 2 2 2 2
+     3 3 3 3 3 
+     4 4 4 4 4 
+     5 5 5 5 5
+     
+     
+->C++ Code
+
+#include<iostream>
+using namespace std;
+int main()
+{
+      int i,j; 
+      //As there are 5 rows and 5 columns run the loop from 1 to 5
+      for(i=1;i<=5;i++)
+      {
+          //this loop iterates 5 times printing the value of i each time
+          for(j=1;j<=5;j++)
+          {
+              cout<<i<<" ";
+          }
+         cout<<endl;
+      }
+      return 0;
+}
+     
