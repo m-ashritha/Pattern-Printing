@@ -6,9 +6,9 @@
       * * * * *
       * * * * * 
       
-# The following code prints the above mentioned pattern
+//The following code prints the above mentioned pattern
 
-# C Code
+//C Code
 
 #include<stdio.h>
 int main()
