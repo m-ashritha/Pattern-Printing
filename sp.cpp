@@ -7,7 +7,7 @@
       
 //The following code prints the above mentioned pattern
 
-//C Code
+//Cpp Code
 
 #include<iostream>
 using namespace std;
