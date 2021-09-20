@@ -26,3 +26,25 @@ int main()
 	}
 	return 0;
 }
+/*-----------------------------------------
+-----------------------------------------*/
+// C++ Code
+ 
+#include<iostream>
+int main()
+{
+	int i,j,k;
+	for(i=1;i<=5;i++)
+	{
+		for(j=1;j<=5-i;j++)
+		{
+			cout<<" ";
+		}
+		for(k=j;k<=5;k++)
+		{
+			cout<<i<<" ";
+		}
+		cout<<endl;
+	}
+	return 0;
+}
