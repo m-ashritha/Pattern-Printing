@@ -14,10 +14,12 @@ int main()
 	int i,j,k;
 	for(i=1;i<=5;i++)
 	{
+		//for each line prints(5-i) spaces
 		for(j=1;j<=5-i;j++)
 		{
 			printf(" ");
 		}
+		//for each line prints i value i times followed by a space
 		for(k=j;k<=5;k++)
 		{
 			printf("%d ",i);
